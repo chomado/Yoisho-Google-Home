@@ -2,7 +2,7 @@
   "name": "yoisho",
   "version": "1.0.0",
   "description": "yoisho!",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "actions-on-google": "^1.9.0",
-    "express": "^4.16.2",
-    "npm": "^5.7.1"
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node" : ">=6.9.1"
   }
 }
