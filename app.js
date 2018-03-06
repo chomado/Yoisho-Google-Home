@@ -12,5 +12,5 @@ app.post('/googlehome', (req, res) => {
         response: res
     });
     app.ask("マイクロソフト　アジュールから　こんにちは。ちょまどです");
-    app.listen(process.env.PORT || 1337);
 });
+app.listen(process.env.PORT || 1337);
